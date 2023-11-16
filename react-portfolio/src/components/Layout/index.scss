@@ -34,6 +34,40 @@
   margin: 0 auto;
   z-index: 1;
   transform-style: preserve-3d;
-  animation: fadeIn 6s forwards;
+  animation: fadeIn 2s forwards;
   animation-delay: 1s;
+}
+
+.about-page{
+  .text-zone{
+    position:absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 90%;
+  }
+
+  h1{
+    font-size: 53px;
+    font-family: 'Coolvetica';
+    color: #ffd700;
+    font-weight: 400;
+    margin-top: 0;
+    position: relative;
+    margin-bottom: 40px;
+    left: 10px;
+
+    &:before{
+      content: '<h1>';
+      font-family: 18px;
+      position: absolute;
+      margin-top: -10px;
+      left: -10px;
+      opacity: 0.6;
+      
+    }
+  }
 }
