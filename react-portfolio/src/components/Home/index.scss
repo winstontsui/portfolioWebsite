@@ -7,6 +7,9 @@
         width: 40%;
         max-height: 90%;
     }
+    .w {
+        height: 40px; /* Adjust the height value as needed */
+      }
     h1{
         color: #fff;
         font-size: 53px;
@@ -42,7 +45,7 @@
             opacity: 0;
             height: auto;
             animation: rotateIn 1s linear both;
-            animation-delay: 1.4s;
+            animation-delay: 0.4s;
         }
     }
     h2{
@@ -66,7 +69,7 @@
         border: 1px solid #ffd700;
         margin-top: 25px;
         float: left;
-        animation: fadeIn 1s 1.8s backwards;
+        animation: fadeIn 1s 1s backwards;
         white-space: nowrap;
         &:hover{
             background: #ffd700;

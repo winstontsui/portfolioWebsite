@@ -1,5 +1,5 @@
 import './index.scss';
-import LogoS from '../../assets/images/logo-s.png';
+import LogoW from '../../assets/images/logo-w.jpg';
 import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
 import { useEffect, useState } from 'react';
@@ -31,32 +31,32 @@ const Home = () => {
   useEffect(() => {
       setTimeout(() => {
        setLetterClass('text-animate-hover');
-    }, 4000);
+    }, 3000);
   }, []);
 
   return (
     <div className="container home-page">
       <div className="text-zone">
         <h1>
-          <span className={letterClass}> H</span>
-          <span className={`${letterClass} _12`}> e </span>
-          <span className={`${letterClass} _13`}> l </span>
-          <span className={`${letterClass} _14`}> l </span>
-          <span className={`${letterClass} _15`}> o,</span>
+          <span className={`${letterClass} _5`}> H </span>
+          <span className={`${letterClass} _5`}> e </span>
+          <span className={`${letterClass} _6`}> l </span>
+          <span className={`${letterClass} _7`}> l </span>
+          <span className={`${letterClass} _8`}> o,</span>
           <br />
-          <span className={`${letterClass} _16`}> I</span>
-          <span className={`${letterClass} _17`}> 'm</span>
-          <img src={LogoS} alt="developer" />
+          <span className={`${letterClass} _5`}> I</span>
+          <span className={`${letterClass} _6`}> 'm</span>
+          <img src={LogoW} className="w" alt="developer" />
           <AnimatedLetters
             letterClass={letterClass}
             strArray={nameArray}
-            idx={15}
+            idx={6}
           />
           <br />
           <AnimatedLetters
             letterClass={letterClass}
             strArray={jobArray}
-            idx={22}
+            idx={10}
           />
         </h1>
         <h2>

@@ -35,7 +35,7 @@
   z-index: 1;
   transform-style: preserve-3d;
   animation: fadeIn 2s forwards;
-  animation-delay: 1s;
+  animation-delay: 0.2s;
 }
 
 .about-page{
@@ -62,12 +62,54 @@
 
     &:before{
       content: '<h1>';
-      font-family: 18px;
+      font-size: 18px;
+      font-family: 'La Belle Aurore';
       position: absolute;
       margin-top: -10px;
       left: -10px;
       opacity: 0.6;
-      
+      line-height: 18px;
     }
+
+    &:after{
+      content: '<h1/>';
+      font-family: 'La Belle Aurore';
+      font-size: 18px;
+      line-height: 18px;
+      left: -30px;
+      bottom: -20px;
+      margin-left: 20px;
+      opacity: 0.6;
+    }
+  }
+
+  p{
+    font-size: 13px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 300;
+    min-width: fit-content;
+    animation: pulse 1s;
+    &:nth-of-type(1){
+      animation-delay: 0.5s;
+    }
+    &:nth-of-type(2){
+      animation-delay: 0.6s;
+    }
+    &:nth-of-type(3){
+      animation-delay: 0.7s;
+    }
+    &:nth-of-type(4){
+      animation-delay: 0.8s;
+    }
+    &:nth-of-type(5){
+      animation-delay: 0.9s;
+    }
+  }
+}
+
+.text-animate-hover{
+  &:hover{
+    color: #fff;
   }
 }
