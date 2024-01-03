@@ -1,16 +1,41 @@
 import Loader from 'react-loaders';
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
+  const refForm = useRef();
 
   useEffect(() => {
     setTimeout(() => {
       setLetterClass('text-animate-hover');
     }, 3000);
   }, []);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        'service_6ypvot7',
+        'template_3gy1nsq',
+        refForm.current,
+        'v81FKAInDV72ce1RX'
+      )
+      .then(
+        () => {
+          alert(
+            'Your message was sucessfully sent! Thank you for reaching out--I will get back to you shortly.'
+          );
+          window.location.reload(false);
+        },
+        () => {
+          alert('Failed to send the message, please try again.');
+        }
+      );
+  };
 
   return (
     <>
@@ -34,7 +59,7 @@ const Contact = () => {
             via email: witsui@syr.edu
           </p>
           <div className="contact-form">
-            <form>
+            <form ref={refForm} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
                   <input type="text" name="name" placeholder="Name" required />
@@ -63,15 +88,23 @@ const Contact = () => {
                   ></textarea>
                 </li>
                 <li>
-                  <input
-                    type="submit"
-                    className="flat-button"
-                    value="SEND"
-                  />
+                  <input type="submit" className="flat-button" value="SEND" />
                 </li>
               </ul>
             </form>
           </div>
+        </div>
+        <div className="info-map">
+          Winston Tsui
+          <br />
+          United States
+          <br />
+          New York City
+          <br />
+          <span>witsui@syr.edu</span>
+        </div>
+        <div className="map-wrap">
+          {/*TODO: Map showing my general location*/}
         </div>
       </div>
       <Loader type="pacman" />
