@@ -1,6 +1,5 @@
 # Personal Portfolio Website
-Winston Tsui's personal portfolio website using React framework, JavaScript, SCSS, CSS, HTML, email.js, leaflet, Git and GitHub technologies. Intended to showcase my skills, experiences, achievements in a professional manner and present my technical skills to
-the world.
+Winston Tsui's personal portfolio website using React framework, JavaScript, SCSS, CSS, HTML, email.js, leaflet, Git and GitHub technologies. Intended to showcase my skills, experiences, achievements in a professional manner and present my technical skills to the world.
 
 ## Winston Tsui
 Computer Science, Syracuse University Student, New York.
