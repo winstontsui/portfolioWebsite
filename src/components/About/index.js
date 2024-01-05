@@ -10,9 +10,13 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
 import Loader from 'react-loaders';
+import gsap from 'gsap';
 
 const About = () => {
+  gsap.registerPlugin(DrawSVGPlugin);
+
   const [letterClass, setLetterClass] = useState('text-animate');
 
   useEffect(() => {

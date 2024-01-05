@@ -3,18 +3,28 @@ Winston Tsui's personal portfolio website using React framework, JavaScript, SCS
 
 ## Winston Tsui
 Computer Science, Syracuse University Student, New York.
+
 Passionate about using code and technology to improve the world.
+
 witsui@syr.edu
 
 ## Sources:
 Credits to Slobodan Gajic
+
 Credits to freeCodeCamp.org https://youtu.be/bmpI252DmiI?si=U7IrvCAWUP9wKhjV
+
 Credits to bobangajicsm/react-portfolio-website https://github.com/bobangajicsm/react-portfolio-website
 
-
+<br>
 Markdown docs: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
 EmailJS docs: https://www.emailjs.com/docs/
 
+leaflet docs: https://leafletjs.com/index.html
+
+Deployed using netlify: https://www.netlify.com/
+
+## Created using React
 ### `npm start`
 
 Runs the app in the development mode.\
