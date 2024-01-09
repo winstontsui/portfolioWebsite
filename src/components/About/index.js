@@ -25,35 +25,39 @@ const About = () => {
             />
           </h1>
           <p>
-            Hello! I'm Winston Tsui, from Queens, New York City! I currently
-            attend Syracuse University, in my last year, studying Computer
-            Science! Previously, I have interned at NYC Department of
-            Correction, NYC Department of Design and Construction, and Palapa. I
-            have also gained incredible interpersonal and communication skills
-            while working at Mount Sinai Hospital. I'm in the process of joining
-            Tau Beta Pi honor society now and am looking to apply to further my
-            knowledge, experience and passion for software engineering.
+            I'm Winston Tsui, from Queens, New York City! I am a senior
+            at Syracuse University studying Computer Science. My academic
+            journey in Computer Science has equipped me with a strong technical
+            foundation and is marked with top grades across the board. My brief
+            research optimizing electrical power grid models with Professor
+            Fioretto instilled professional focus and collaboration skills. I
+            have a leading industry certification in Azure AI Engineering.
+            Additionally, my internship at Palapa, an AI startup, challenged my
+            software development and machine learning knowledge. This
+            realization propelled my aspiration for continuous learning and
+            professional growth.
           </p>
           <p>
-            I am certified by Microsoft in Azure AI Engineering, so I am
-            familiar with a large chunk of artificial intelligence services and
-            resources from Microsoft. But I want to learn more about the actual
-            underlying functions and frameworks that are behind these services
-            in PyTorch and other frameworks, and I think this opportunity is a
-            great way for me to learn more.
+            I am drawn to innovation; placing emphasis on leadership and
+            communication as I seek to work in a company that promotes
+            full-stack software engineering integrated with machine learning
+            predictive analytics.
           </p>
           <p>
-            Overall, I believe there is a bit of a learning curve for me, but I
-            strongly believe I come equipped with the necessary and basic
-            knowledge in programming and machine learning knowledge to make a
-            meaningful impact. Previously, I have interned as a software
-            engineering intern, an application developer intern as well as a
-            desktop support intern. I also have created android application
-            projects and would love to talk more about this. I would love to
-            help and contribute in any way I can.
+            I am seeking an opportunity to apply the theoretical knowledge and
+            practical skills I've acquired during my academic journey in a
+            real-world, professional setting. I am eager to contribute to your
+            dynamic team, collaborating on challenging projects, and continuing
+            my learning journey in a supportive environment. I want to make a
+            meaningful impact by contributing to your company's success while
+            continuously evolving as a professional in the field.
           </p>
         </div>
-        <img className = "winstonimage" src={concentrationImage} alt="Exampleeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee" />
+        <img
+          className="winstonimage"
+          src={concentrationImage}
+          alt="Exampleeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+        />
       </div>
       <Loader type="pacman" />
     </>

@@ -1,7 +1,9 @@
 # Personal Portfolio Website
+
 Winston Tsui's personal portfolio website using React framework, JavaScript, SCSS, CSS, HTML, email.js, leaflet, Git and GitHub technologies. Intended to showcase my skills, experiences, achievements in a professional manner and present my technical skills to the world.
 
 ## Winston Tsui
+
 Computer Science, Syracuse University Student, New York.
 
 Passionate about using code and technology to improve the world.
@@ -9,6 +11,7 @@ Passionate about using code and technology to improve the world.
 witsui@syr.edu
 
 ## Sources:
+
 Credits to Slobodan Gajic
 
 Credits to freeCodeCamp.org https://youtu.be/bmpI252DmiI?si=U7IrvCAWUP9wKhjV
@@ -23,6 +26,8 @@ EmailJS docs: https://www.emailjs.com/docs/
 leaflet docs: https://leafletjs.com/index.html
 
 Deployed using netlify: https://www.netlify.com/
+
+<br>
 
 ## Created using React
 ### `npm start`
