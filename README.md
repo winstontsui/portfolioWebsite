@@ -1,8 +1,8 @@
 # Personal Portfolio Website
 
-Website is at ```https://melodic-capybara-ca9ddd.netlify.app/```
+Website is https://melodic-capybara-ca9ddd.netlify.app/
 
-Archived 1/11/2024. There will be no future updates. Some notes: After filling out the form, press the back button to return to the page. Also, this website is not responsive. In a future e-commerce website, I will learn how to make websites responsibe.
+Archived 1/11/2024. There will be no future updates. Some notes: After filling out the form, press the back button to return to the page. Also, this website is not responsive. I don't know what's causing the issue. In a future e-commerce website, I will learn how to make websites responsibe.
 
 Winston Tsui's personal portfolio website using React framework, JavaScript, SCSS, CSS, HTML, email.js, leaflet, Git and GitHub technologies. Intended to showcase my skills, experiences, achievements in a professional manner and present my technical skills to the world.
 
